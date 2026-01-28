@@ -1,81 +1,77 @@
-# 🧪 Manual Test Case – Authentication (Register, Login, Logout)
+# AutomationExercise – Authentication Test Cases
 
-This repository contains **manual test cases** for the **Authentication module** (Register, Login, Logout) of the **AutomationExercise** web application.
+This repository contains **manual test cases** for the **Authentication feature (Register, Login, Logout)** of the AutomationExercise web application.
 
-The test cases are designed to demonstrate practical **manual testing skills**, including test scenario design, test case structuring, data variation, and expected behavior validation based on the actual UI and flow of the application.
-
----
-
-## 🔍 Application Under Test
-- **Website**: https://automationexercise.com
-- **Module Tested**: Authentication
-  - User Registration
-  - User Login
-  - User Logout
+Test cases are created based on **actual UI flow and system behavior** observed on the application.
 
 ---
 
-## 📂 Test Case Structure
-All test cases are documented in an Excel file and organized into **three separate sheets**:
+## Application Information
+- Application: AutomationExercise
+- URL: https://automationexercise.com
+- Module: Authentication (Register, Login, Logout)
+- Test Type: Manual Testing
 
-- **Register**
-- **Login**
-- **Logout**
+---
 
-Each test case follows a **real-world QA documentation format**:
+## Test Case Organization
+Test cases are grouped using a simple and consistent structure:
 
-- Test Scenario ID (TS.Auth.xxx)
-- Test Case ID (TS.Auth.xxx.xxx)
-- Test Category (Positive / Negative)
-- Pre-Condition
-- Test Data
-- Test Steps
-- Expected Result (Test Case Level)
-- Actual Result
+- **TS.Auth.001** – Register
+- **TS.Auth.002** – Login
+- **TS.Auth.003** – Logout  
+- Test Case ID format: `TS.Auth.XXX.XXX`
+
+Each test case contains:
+- Pre-condition
+- Test data
+- Test steps
+- Expected result (test case level)
+- Actual result
 - Status (Pass / Fail)
 - Remarks
 
 ---
 
-## 🧾 Test Scenario Numbering Convention
-To keep the documentation clean and easy to read, the following numbering scheme is used:
+## Test Coverage
+### Register
+- Successful user registration
+- Mandatory field validation
+- Existing email validation
+- Invalid email format handling
+- Optional field behavior
+- Account deletion flow
 
-- **TS.Auth.001** → Register scenarios  
-- **TS.Auth.002** → Login scenarios  
-- **TS.Auth.003** → Logout scenarios  
+### Login
+- Successful login
+- Invalid credential handling
+- Empty field validation
+- Session behavior after refresh or navigation
 
-Example:
-- `TS.Auth.002.001` – Login with valid credentials  
-- `TS.Auth.002.002` – Login with wrong password  
-
----
-
-## 📊 Test Coverage Summary
-- **Register**: Valid registration, duplicate email, mandatory field validation, optional field behavior, account deletion
-- **Login**: Valid login, invalid credentials, empty fields, session persistence, navigation behavior
-- **Logout**: Successful logout, session termination, back/refresh behavior, access control after logout
-
-Total test cases: **20+**  
-(All based on actual UI behavior of the AutomationExercise website)
-
----
-
-## 🎯 Purpose of This Repository
-This repository is created as part of a **Quality Assurance portfolio** to demonstrate:
-- Understanding of **manual testing fundamentals**
-- Ability to design **clear and structured test cases**
-- Familiarity with **real application flows**
-- Practical QA mindset aligned with **industry practices**
+### Logout
+- Successful logout
+- Session invalidation
+- Access behavior after logout
+- Direct URL access behavior
 
 ---
 
-## 🛠 Tools Used
-- Microsoft Excel / Google Sheets (Test Case Documentation)
-- Web Browser (Manual Testing Execution)
+## Test Case File
+The test cases are documented in an Excel file:
+
+- **Google Drive**:  
+  _[Paste your Google Drive link here]_
+
+- **File name**:  
+  `TC_AutomationExercise_Auth_FINAL_TSAuth_Numbering.xlsx`
 
 ---
 
-## 👤 Author
-**Dwiky Al Asyam**  
-Quality Assurance (Manual Testing)
-
+## Notes
+- Expected results are written according to **actual messages and navigation flow** shown by the application.
+- Examples of system messages used in validation:
+  - `ACCOUNT CREATED!`
+  - `Email Address already exist!`
+  - `Your email or password is incorrect!`
+  - `Logged in as <username>`
+  - `ACCOUNT DELETED!`
