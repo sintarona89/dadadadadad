@@ -1,61 +1,81 @@
-# Manual Testing Portfolio – Web Applications
+# 🧪 Manual Test Case – Authentication (Register, Login, Logout)
 
-This repository contains **manual test cases created by me** for testing real web applications.
-The test cases are designed based on the actual UI and behavior of each application and focus on clear, structured, and practical manual testing documentation.
+This repository contains **manual test cases** for the **Authentication module** (Register, Login, Logout) of the **AutomationExercise** web application.
 
-## Scope of Testing
-This repository currently includes manual test cases for the following web application:
+The test cases are designed to demonstrate practical **manual testing skills**, including test scenario design, test case structuring, data variation, and expected behavior validation based on the actual UI and flow of the application.
 
-- **AutomationExercise**  
-  Website: https://automationexercise.com  
-  Module Tested:
+---
+
+## 🔍 Application Under Test
+- **Website**: https://automationexercise.com
+- **Module Tested**: Authentication
   - User Registration
   - User Login
   - User Logout
 
-Additional test cases for other web applications may be added in the future.
+---
 
-## Test Case Approach
-- Test cases are written with clear and ordered test steps describing user actions.
-- Each test case has a single expected result that represents the overall outcome of the scenario.
-- Actual result and execution status (Pass/Fail) are recorded per test case.
-- Test data is defined for each test case to support repeatable execution.
-- The structure is designed for efficiency and real project usage, avoiding unnecessary duplication.
+## 📂 Test Case Structure
+All test cases are documented in an Excel file and organized into **three separate sheets**:
 
-## Test Scenario Structure
-The test scenarios use a simple and consistent ID format:
+- **Register**
+- **Login**
+- **Logout**
 
-- **TS.Auth.001** – Register
-- **TS.Auth.002** – Login
-- **TS.Auth.003** – Logout
+Each test case follows a **real-world QA documentation format**:
 
-Test Case ID format:
-TS.Auth.<Scenario>.<TestCase>
-
-
-## Documentation Format
-Each test case includes:
-- Test Scenario ID
-- Test Case ID
-- Description
-- Preconditions
-- Test steps
-- Test data
-- Expected result
-- Actual result
-- Execution status
+- Test Scenario ID (TS.Auth.xxx)
+- Test Case ID (TS.Auth.xxx.xxx)
+- Test Category (Positive / Negative)
+- Pre-Condition
+- Test Data
+- Test Steps
+- Expected Result (Test Case Level)
+- Actual Result
+- Status (Pass / Fail)
 - Remarks
 
-## Repository Usage
-- Open the test case files using Microsoft Excel or Google Sheets
-- Review and execute test cases manually
-- Compare expected and actual results
-- Use as a reference for manual testing practice or interview preparation
+---
 
-## Notes
-- Screenshots and execution evidence may be provided via external links (e.g. Google Drive).
-- This repository will be continuously updated as new applications are tested.
+## 🧾 Test Scenario Numbering Convention
+To keep the documentation clean and easy to read, the following numbering scheme is used:
 
-## Author
-Dwiky Al Asyam  
-Manual & Software Quality Assurance  
+- **TS.Auth.001** → Register scenarios  
+- **TS.Auth.002** → Login scenarios  
+- **TS.Auth.003** → Logout scenarios  
+
+Example:
+- `TS.Auth.002.001` – Login with valid credentials  
+- `TS.Auth.002.002` – Login with wrong password  
+
+---
+
+## 📊 Test Coverage Summary
+- **Register**: Valid registration, duplicate email, mandatory field validation, optional field behavior, account deletion
+- **Login**: Valid login, invalid credentials, empty fields, session persistence, navigation behavior
+- **Logout**: Successful logout, session termination, back/refresh behavior, access control after logout
+
+Total test cases: **20+**  
+(All based on actual UI behavior of the AutomationExercise website)
+
+---
+
+## 🎯 Purpose of This Repository
+This repository is created as part of a **Quality Assurance portfolio** to demonstrate:
+- Understanding of **manual testing fundamentals**
+- Ability to design **clear and structured test cases**
+- Familiarity with **real application flows**
+- Practical QA mindset aligned with **industry practices**
+
+---
+
+## 🛠 Tools Used
+- Microsoft Excel / Google Sheets (Test Case Documentation)
+- Web Browser (Manual Testing Execution)
+
+---
+
+## 👤 Author
+**Dwiky Al Asyam**  
+Quality Assurance (Manual Testing)
+
