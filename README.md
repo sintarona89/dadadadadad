@@ -1,41 +1,23 @@
-# AutomationExercise – Authentication Test Cases
+# Manual QA Test Suite — Automation Exercise (Register, Login, Logout)
 
-Manual test cases for **Register, Login, and Logout** features on the AutomationExercise website.
+This repository contains a structured manual QA test suite for the Automation Exercise web application, focused on the authentication flows: **Register**, **Login**, and **Logout**.
 
-🔗 **Test Case Document**  
-👉 [Google Drive – Authentication Test Cases](PASTE_LINK_GOOGLE_DRIVE_KAMU_DI_SINI)
+## Application Under Test (AUT)
+- **Automation Exercise**: https://automationexercise.com
 
----
+## Test Case Spreadsheet (Google Drive)
+➡️ **[Automation Exercise — Manual Test Suite (Excel)](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
 
-## Application
-- Website: https://automationexercise.com
-- Feature: Authentication (Register, Login, Logout)
-- Test Type: Manual Testing
+## Spreadsheet Structure
+- **Test_Scenarios**: Consolidated scenarios for Register/Login/Logout with **Positive** and **Negative** coverage.
+- **TC_Register / TC_Login / TC_Logout**: Detailed test cases per module.
 
----
-
-## Test Case Structure
-- **TS.Auth.001** – Register
-- **TS.Auth.002** – Login
-- **TS.Auth.003** – Logout  
-- Test Case ID format: `TS.Auth.XXX.XXX`
-
+## Test Case Coverage
 Each test case includes:
-- Pre-condition
-- Test data
-- Test steps
-- Expected result (test case level)
-- Actual result
-- Status
-- Remarks
+- **Test Case ID** and **Scenario ID** (traceability)
+- **Preconditions**, **test data**, and step-by-step **test steps**
+- Clear **expected results**
+- Execution fields: **Test Type (Positive/Negative)**, **Status**, and **Priority**
 
----
-
-## Notes
-- Expected results are written according to **actual messages and navigation flow** shown by the application.
-- Examples of system messages used in validation:
-  - `ACCOUNT CREATED!`
-  - `Email Address already exist!`
-  - `Your email or password is incorrect!`
-  - `Logged in as <username>`
-  - `ACCOUNT DELETED!`
+## Scope
+This suite is designed for **manual execution** and can be used as a baseline for future automation efforts.
