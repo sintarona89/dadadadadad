@@ -9,8 +9,6 @@ You can view/download the main spreadsheet here:
 
 ## 🌐 Application Under Test (AUT)
 - Website: https://automationexercise.com  
-- Scope: Register, Login, Logout
-
 ---
 
 ## 📂 Coverage
