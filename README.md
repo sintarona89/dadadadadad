@@ -1,9 +1,9 @@
-# 🧪 Manual Test Cases — Authentication (Register, Login, Logout)
+# Manual Test Cases — Authentication (Register, Login, Logout)
 
-This folder contains a structured set of **manual QA test cases** in **Excel (.xlsx)** for the Automation Exercise web application, focused on authentication flows.
+This folder contains a structured set of **manual QA test cases** in **Excel (.xlsx)** for the Automation Exercise web application, covering the authentication flows: **Register**, **Login**, and **Logout**.
 
 You can view/download the main spreadsheet here:  
-➡️ **[Automation Exercise — Auth Manual Test Cases (Excel)](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+➡️ **[AutomationExercise_Auth_TestCases.xlsx (Google Drive)](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
 
 ---
 
@@ -14,7 +14,7 @@ You can view/download the main spreadsheet here:
 ---
 
 ## 📂 Coverage
-- Authentication flows: Register, Login, Logout  
+- Register, Login, Logout flows  
 - Auth form validations (required fields, email format, basic constraints)  
 - Positive and negative scenarios  
 - Logout/session integrity checks (e.g., back navigation and refresh behavior)
@@ -26,28 +26,32 @@ You can view/download the main spreadsheet here:
 - **TC_Register**
 - **TC_Login**
 - **TC_Logout**
+- **Test_Summary**
 
 ---
 
 ## 🧾 Test Case Structure
-Each test case file typically includes the following fields:
 
 | Field | Description |
 |:------|:------------|
 | **Test Case ID** | Unique identifier for each test case (e.g., REG-001, LOG-001) |
+| **Module** | Feature/module under test (Register/Login/Logout) |
 | **Scenario ID** | Links test cases to scenarios for traceability |
-| **Test Case Title** | Short description of what is being validated |
-| **Preconditions** | Required state/setup before execution |
-| **Test Data** | Input data needed to execute the test |
-| **Test Steps** | Step-by-step actions to perform |
+| **Test Case Title** | What is being validated |
+| **Test Type** | Positive / Negative |
+| **Precondition** | Required setup/state before execution |
+| **Test Steps** | Step-by-step actions |
+| **Test Data** | Input values used during execution |
 | **Expected Result** | Expected system behavior/outcome |
 | **Actual Result** | Observed result during execution |
-| **Test Type** | Positive / Negative |
 | **Status** | Not Run / Pass / Fail / Blocked |
 | **Priority** | High / Medium / Low |
+| **Tester** | Executor name/initials |
+| **Execution Date** | Date of execution |
 | **Notes** | Additional context or observations |
 
 ---
 
-## 👀 Access Note
-If you open the spreadsheet from GitHub, download the `.xlsx` file to preserve formatting and dropdown validations.
+## 📌 Note
+If you access the spreadsheet from GitHub, download the `.xlsx` file to preserve formatting and dropdown validations.
+
