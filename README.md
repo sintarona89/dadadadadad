@@ -52,6 +52,3 @@ You can view/download the main spreadsheet here:
 
 ---
 
-## 📌 Note
-If you access the spreadsheet from GitHub, download the `.xlsx` file to preserve formatting and dropdown validations.
-
