@@ -3,7 +3,7 @@
 This folder contains a structured set of **manual QA test cases** in **Excel (.xlsx)** for the Automation Exercise web application, covering the authentication flows: **Register**, **Login**, and **Logout**.
 
 You can view/download the main spreadsheet here:  
-➡️ **[AutomationExercise_Auth_TestCases.xlsx (Google Drive)](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+➡️ **[Manual Test Suite](https://docs.google.com/spreadsheets/d/1t3yb5iL6dqz-hlS9oScQggtlakPpU94r/edit?usp=sharing&ouid=114366804808076461714&rtpof=true&sd=true)**
 
 ---
 
